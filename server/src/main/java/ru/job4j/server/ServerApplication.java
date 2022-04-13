@@ -1,13 +1,12 @@
-package ru.job4j.passport;
+package ru.job4j.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Job4jPassportApplication {
+public class ServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Job4jPassportApplication.class, args);
+        SpringApplication.run(ServerApplication.class, args);
     }
-
 }
